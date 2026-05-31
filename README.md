@@ -15,7 +15,7 @@ You can build a poker bot two ways:
 
 I tried option 1 first. It works fine against weak bots. Buttttt....
 
-So I went with option 2 and called it The Monty Python.
+I went with option 2 and called it The Monty Python.
 
 ---
 
