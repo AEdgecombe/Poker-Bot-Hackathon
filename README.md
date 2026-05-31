@@ -48,19 +48,6 @@ There's an **equity floor** under all of it: the bot uses `eval7` to compute rea
 - **Sandbox sims lie cleanly.** 200-hand heads-up vs the reference bots tells you almost nothing about how you'll do against another serious bot. But it does catch bugs that crash your bot in 5 seconds.
 - **`load_failed` errors usually mean the wrong path, not a broken bot.** Spent a frustrated minute on this. The bot was fine; I was loading from `bots/mybot/` which didn't exist.
 
----
-
-## Running it
-
-The bot expects to be run inside the Fullhouse engine (separate repo: [uzlez/fullhouse-engine](https://github.com/uzlez/fullhouse-engine)). Drop `bot.py` into `bots/<name>/bot.py` and run:
-
-```bash
-python3 sandbox/match.py bots/template/bot.py bots/shark/bot.py --hands 200
-```
-
-Dependencies: `eval7`.
-
----
 
 ## Sandbox results
 
