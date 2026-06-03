@@ -61,4 +61,3 @@ Heads-up, 200 hands, 5 runs each:
 
 4-way tournament (template + shark + aggressor + math, 300 hands): 3 first-place finishes, 2 busts in 5 runs.
 
-The wins are bigger than the losses. That's the whole bet.
