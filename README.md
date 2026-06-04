@@ -31,7 +31,7 @@ Every hand, the bot becomes one of 5 personas, picked by a chaotic function (a l
 | **The Rabbit** | Quiet, quiet, quiet — then suddenly all-in. |
 | **The Lumberjack** | Barrels hard, jams draws, never lets up. |
 
-Bet sizes, bluff frequencies, and raise triggers are all drawn from the same chaos stream — nothing is fixed, so opponents can't fit a model to it.
+Bet sizes, bluff frequencies, and raise triggers are all drawn from the same chaos stream, nothing is fixed, so opponents can't fit a model to it.
 
 There's an **equity floor** under all of it: the bot uses `eval7` to compute real hand strength and pot odds, and chaos can't override it. We won't shove 7-2o just because the chaos roll says to.
 
