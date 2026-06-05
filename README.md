@@ -46,7 +46,6 @@ There's an **equity floor** under all of it: the bot uses `eval7` to compute rea
 - **GTO is the floor, not the ceiling.** Against weak opponents you make money by exploiting them. Against strong opponents, GTO breaks even — to actually *win* you need them to mis-model you.
 - **Variance is a feature when you can't win on skill.** A chaos bot loses more often than a tight GTO bot, but in a tournament you only need to win once. High variance + positive expectation = good tournament strategy.
 - **Sandbox sims lie cleanly.** 200-hand heads-up vs the reference bots tells you almost nothing about how you'll do against another serious bot. But it does catch bugs that crash your bot in 5 seconds.
-- **`load_failed` errors usually mean the wrong path, not a broken bot.** Spent a frustrated minute on this. The bot was fine; I was loading from `bots/mybot/` which didn't exist.
 
 
 ## Sandbox results
