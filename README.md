@@ -13,8 +13,6 @@ You can build a poker bot two ways:
 1. **Try to be perfect.** Solve for the EV-maximising action in every spot. Run Monte Carlo, learn opponent ranges, play GTO.
 2. **Try to be unpredictable.** Pick chaotic-but-sane lines so opponents can't model you.
 
-I tried option 1 first. It works fine against weak bots. Buttttt....
-
 I went with option 2 and called it The Monty Python.
 
 ---
