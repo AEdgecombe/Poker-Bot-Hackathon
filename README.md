@@ -40,7 +40,7 @@ There's an **equity floor** under all of it: the bot uses `eval7` to compute rea
 - **The engine is brutally simple.** One function, `decide(state)`, returns one action. The whole strategy fits in one file. All the complexity is choices, not code.
 - **Hand strength is mostly a solved problem.** `eval7` evaluates a 7-card hand in microseconds. You don't need to write your own.
 - **Opponent modelling is real EV.** Bucketing opponents into archetypes (aggro / passive / folder) and adjusting your ranges is bigger than tuning preflop charts.
-- **Bet sizing is information.** If you bet 0.75 pot every time you have a strong hand, smart opponents will learn that. Jittering sizes by ±15% is free anti-information.
+- **Bet sizing is information.** If you bet 0.75 pot every time you have a strong hand, smart opponents will learn that. Jittering sizes by ±15% is  anti-information.
 - **GTO is the floor, not the ceiling.** Against weak opponents you make money by exploiting them. Against strong opponents, GTO breaks even — to actually *win* you need them to mis-model you.
 - **Variance is a feature when you can't win on skill.** A chaos bot loses more often than a tight GTO bot, but in a tournament you only need to win once. High variance + positive expectation = good tournament strategy.
 - **Sandbox sims lie cleanly.** 200-hand heads-up vs the reference bots tells you almost nothing about how you'll do against another serious bot. But it does catch bugs that crash your bot in 5 seconds.
