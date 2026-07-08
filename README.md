@@ -1,7 +1,7 @@
 # Poker Hackathon — The Monty Python
 
 My entry for the hackathon (Fullhouse, June 2026). A No-Limit Texas Hold'em bot, written in Python.
- 
+  
 The bot lives in [bot.py](bot.py). It's called **The Monty Python**.
 ---
  
