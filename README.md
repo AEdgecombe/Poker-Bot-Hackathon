@@ -6,7 +6,7 @@ The bot lives in [bot.py](bot.py). It's called **The Monty Python**.
 ---
  
 ## The idea
-
+ 
 You can build a poker bot two ways:
 
 1. **Try to be perfect.** Solve for the EV-maximising action in every spot. Run Monte Carlo, learn opponent ranges, play GTO.
